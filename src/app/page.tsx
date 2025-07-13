@@ -73,7 +73,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <Image  
             aria-hidden
             src="/window.svg"
             alt="Window icon"
