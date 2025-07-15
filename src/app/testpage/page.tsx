@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 import { Button } from '@mantine/core';
 
@@ -12,12 +13,14 @@ export default function HomePage() {
       </Button>
 
       <div className="bg-gray-100 p-6 rounded-xl shadow">
+        <Link href="/">
         <Button
           variant="gradient"
           gradient={{ from: 'teal', to: 'blue', deg: 60 }}
-        >
-          ปุ่ม Gradient จาก Mantine
+          >
+            ปุ่ม Gradient จาก Mantine
         </Button>
+          </Link>
       </div>
     </div>
   );
